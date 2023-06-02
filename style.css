@@ -33,7 +33,6 @@ p {
   align-items: center;
   justify-content: space-around;
 
-  flex-wrap: wrap;
 }
 
 .container-banner{
@@ -57,7 +56,7 @@ p {
 /* ------------CARD---------- */
 
 .card {
-  max-width: 100%;
+  width: 480px;
   height: 600px;
   padding: 30px 35px;
   margin: 50px;
@@ -149,13 +148,15 @@ input {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  margin: 80px 10px;
+  margin: 80px 120px;
 }
 
 .container-textos > h1 {
   font-size: 50px;
   text-transform: uppercase;
   background-color: #009F3C;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .container-textos > h2 {
@@ -164,6 +165,8 @@ input {
 
   font-size: 30px;
   color: white;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .button-gg {
@@ -184,13 +187,16 @@ input {
   flex-direction: column;
   align-items: flex-start;
 
-  margin: 80px;
+  margin: 80px 200px;
+  width: 50%;
 }
 
 .container-2 > h1 {
   background-color: #0167CE;
   text-transform: uppercase;
   font-size: 60px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .container-img-text {
@@ -207,6 +213,8 @@ input {
   font-size: 30px;
   font-weight: bold;
   margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .text-green {
@@ -216,7 +224,8 @@ input {
   font-size: 30px;
   font-weight: bold;
   margin-left: 60px;
-
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .textos {
