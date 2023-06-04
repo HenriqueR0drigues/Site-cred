@@ -462,6 +462,7 @@ input {
   }
   .container {
     align-items: center;
+    margin: 0px;
   }
 
   .img-titulo > img {
@@ -498,6 +499,11 @@ input {
       flex-direction: column;
       align-items: center;
   }
+
+  .container-2 {
+    width: auto;
+    margin-left: 0px;
+  }
   .section-4 {
     background: #0167CE;
     align-items: center;
@@ -506,10 +512,10 @@ input {
 
   .container-3 {
     display: flex;
-    width: 600px;
     align-items: center;
     margin-bottom: 50px;
     flex-direction: column;
+    width: auto;
   }
   .section-5 {
     background: #009F3C;
@@ -530,6 +536,7 @@ input {
   .container-texto{
     width: 83%;
     text-align: center;
+    margin: 0px;
   }
   .container-btn{
     justify-content: space-around;
@@ -540,6 +547,10 @@ input {
   }
   .img-mobile-2{
     display: none;
+  }
+
+  .container-column{
+    margin: 0px;
   }
 
   .footer{
