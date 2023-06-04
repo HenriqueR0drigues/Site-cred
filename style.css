@@ -426,9 +426,11 @@ input {
     top: 74%;
     z-index: 99;
   }
+
   .container-banner{
-    min-width: 99vh;
+    display: block;
   }
+
    .container-card{
     flex-wrap: wrap;
     justify-content: center;
@@ -436,10 +438,14 @@ input {
 
   .card{
     margin: 0px;
+    padding: 32px 4px;
+    width: 374px;
+    height: 525px;
   }
 
    .img-hero{
     width: 100%;
+    min-height: auto;
    }
   .banner-azul {
     min-width: 99vh;
