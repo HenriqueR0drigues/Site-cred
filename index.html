@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
     <title>CONCRED</title>
@@ -23,12 +24,13 @@
       </div>
 
       <!-----------------HERO------------------>
-      <section class="container-banner">
+      <section class="container-banner borda">
 
-        <div class="container-card">
+        <div class="container-card borda">
 
-          <img src="./images/bg1.png" alt="" class="img-hero">
-          <div class="card">
+          <img src="./images/bg1.png" alt="" class="img-hero borda">
+          <div class="card" data-aos="fade-up" data-aos-delay="120"
+          data-aos-duration="1300">
             <h1>Solicite agora!</h1>
             <div class="button-g">
               <p class="button-text">Fale conosco no Whatsapp</p>
@@ -52,10 +54,12 @@
 
       <!---------------------- Section Banner-Azul --------------------->
       <div class="banner-azul">
-        <p><strong>Confie na Concred</strong>, já são mais de 14 anos <br>
+        <p data-aos="fade-right" data-aos-delay="120"
+        data-aos-duration="1000"><strong>Confie na Concred</strong>, já são mais de 14 anos <br>
           levando <strong>crédito justo para o povo Brasileiro.</strong></p>
         
-        <div>
+        <div data-aos="fade-left" data-aos-delay="120"
+        data-aos-duration="1000">
           <a href=""><img src="./images/facebook.png" alt="" width="250px"></a>
           <a href=""><img src="./images/insta.png" alt="" width="79px"></a>
         </div>
@@ -65,6 +69,8 @@
       <section class="section-2">
         
         <div class="container">
+
+          <img src="./images/banner-1.png" alt="" class="img-mobile">
 
           <div class="img-titulo">
             <img src="./images/correto.png" alt="Checkbox de concluído">
@@ -93,7 +99,10 @@
 
       <!----------------------- Section 3 ------------------------------->
       <section class="section-3">
+
+        <img src="./images/banner-2.png" alt="" class="img-mobile" style="margin-top: 40px;">
           <div class="container-2">
+
             <div>
               <p class="text-green" style="background-color: #005FCD;">Grátis e cheio</p>
               <p class="text-green" style="background-color: #005FCD;margin-top: 5px;">De benefícios</p>
@@ -137,6 +146,8 @@
       <!----------------------- Section 4 ------------------------------->
       <section class="section-4">
         <div class="container-3">
+          <img src="./images/banner-3.png" alt="" class="img-mobile" style="margin-top: 40px;">
+
           <img src="./images/correto.png" alt="" width="60px">
           <div style="margin-left: 20px;">
             <p class="sub-text">Fácil contratação</p>
@@ -155,7 +166,12 @@
           <h1 class="text-green" style="margin-top: 10px;">CredCesta</h1>
         </div>
 
+        <img src="./images/banner-4.png" alt="" class="img-mobile" style="margin-top: 40px;">
+
         <div class="container-texto">
+          <div class="container-mobile">
+            <h1 class="text-blue">Aplicativo CredCesta</h1>
+          </div>
           <p>Aplicativo exclusivo
             para ativação do cartão, 
             consulta de saldo, 
@@ -227,7 +243,7 @@
           </div>
         </div>
 
-        <div class="container">
+        <div class="container img-mobile-2">
           <img src="./images/Endereços.png" alt="" height="650px">
         </div>
 
@@ -275,5 +291,10 @@
       </div>
     </footer>
     <img src="./images/footer.png" alt="" width="100%" height="30px">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
