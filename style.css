@@ -478,7 +478,7 @@ input {
   .card{
     margin: 0px;
     padding: 32px 4px;
-    width: 374px;
+    width: 360px;
     height: 525px;
   }
 
@@ -491,7 +491,10 @@ input {
     min-width: 99vh;
     display: none;
   }
-
+ 
+  .button-g{
+    padding: 15px 42px;
+  }
 
   .button-blue {
     background-color: #0167CE;
