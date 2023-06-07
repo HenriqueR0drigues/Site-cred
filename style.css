@@ -75,7 +75,7 @@ p {
 
 .card {
   width: 480px;
-  height: 600px;
+  height: 700px;
   padding: 30px 35px;
   margin: 50px;
 
@@ -213,6 +213,11 @@ input {
   border-radius: 12px;
   padding: 5px 10px 5px 10px;
   text-align: center;
+
+
+  position: relative;
+  right: 210px;
+  bottom: 33px;
 }
 
 .button-2 {
@@ -224,6 +229,10 @@ input {
   border-radius: 12px;
   padding: 5px 10px 5px 10px;
   text-align: center;
+}
+
+.button-2 > h1 {
+  text-transform: uppercase;
 }
 
 .button-blue {
@@ -254,11 +263,11 @@ input {
 }
 
 .container-2 {
-   display: flex;
-   width: 500px;
-   margin-left: 169px;
-   padding-top: 25px;
-   align-items: flex-start;
+  display: flex;
+  width: 500px;
+  margin-left: 250px;
+  padding-top: 25px;
+  align-items: flex-start;
 }
 
 .sub-text {
@@ -286,7 +295,7 @@ input {
 .container-3 {
   display: flex;
   width: 600px;
- 
+
   align-items: flex-start;
   margin-bottom: 50px
 }
@@ -536,8 +545,10 @@ input {
 
   .button {
     width: 331px;
-    margin-top: 5px;
-    margin-bottom: 20px;
+
+    position: static;
+
+    margin-bottom: 40px;
   }
 
   .container > p {
