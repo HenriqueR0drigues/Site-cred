@@ -508,6 +508,13 @@ input {
     display: none;
   }
 
+  .button-green{
+    display: block;
+    width: auto;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
   .section-2 {
     background: #0167CE;
     justify-content: center;
