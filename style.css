@@ -478,6 +478,7 @@ input {
 
   .container-banner{
     display: block;
+    margin-bottom: 30px;
   }
 
   .container-card{
@@ -512,7 +513,7 @@ input {
   }
 
   .banner-azul{
-    height: 7vh;
+    height: 10vh;
 
   }
 
