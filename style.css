@@ -144,6 +144,13 @@ input {
   color: white;
 }
 
+.btn-face{
+  width: 250px;
+}
+.btn-insta{
+  width: 79px;
+}
+
 /* =================== Section 2 ============== */
 
 .section-2 {
@@ -465,6 +472,9 @@ input {
   .button-wpp{
     display: none;
   }
+  .text-green{
+    font-size: 40px;
+  }
 
   .container-banner{
     display: block;
@@ -488,8 +498,7 @@ input {
   }
 
   .banner-azul {
-    min-width: 99vh;
-    display: none;
+    min-width: auto;
   }
 
   .button-g{
@@ -502,13 +511,24 @@ input {
     display: block;
   }
 
+  .banner-azul{
+    height: 7vh;
+
+  }
 
   .banner-azul > p {
-    font-size: 20px;
+    font-size: 10px;
   }
 
   .button-2 {
     display: none;
+  }
+
+  .btn-face{
+    width: 100px;
+  }
+  .btn-insta{
+    width: 33px;
   }
 
   .button-green{
@@ -521,8 +541,8 @@ input {
   .section-2 {
     background: #0167CE;
     justify-content: center;
-    margin-top: 50px;
   }
+
   .container {
     align-items: center;
     margin: 0px;
