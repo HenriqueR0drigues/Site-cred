@@ -69,7 +69,7 @@ p {
 }
 
 .img-hero {
-  min-height: 120vh;
+  width: 58%;
 }
 
 /* ------------CARD---------- */
