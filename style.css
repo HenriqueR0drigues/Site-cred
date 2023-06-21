@@ -408,6 +408,7 @@ input {
   padding:25px;
   border-radius: 20px;
   margin-top: 10px;
+  width: 28.025rem;
 }
 
 .card-endereço > p{
@@ -685,6 +686,7 @@ input {
   }
 
   .card-endereço{
+    width: 23.025rem;
     margin: 10px;
   }
 
